@@ -32,18 +32,18 @@ namespace External.RimuruDevUtilities.Utilities.Components.Background
     [SelectionBase]
     [DisallowMultipleComponent]
     [RequireComponent(typeof(SpriteRenderer))]
-    public sealed class BackgroundScaler : MonoBehaviour
+    public class BackgroundScaler : MonoBehaviour
     {
         [SerializeField] private Camera cameraRenderer;
         private SpriteRenderer backgroundSpriteRenderer;
 
-        private void Awake() =>
+        public virtual void Awake() =>
             backgroundSpriteRenderer = GetComponent<SpriteRenderer>();
 
-        private void Start() =>
+        public virtual void Start() =>
             ScaleBackground();
 
-        private void LateUpdate() =>
+        public virtual void LateUpdate() =>
             ScaleBackground();
 
         private void ScaleBackground()
@@ -53,7 +53,7 @@ namespace External.RimuruDevUtilities.Utilities.Components.Background
 
             var backgroundSize = backgroundSpriteRenderer.sprite.bounds.size;
             var targetScale = Vector3.one;
-            
+
             var widthRatio = targetWidth / backgroundSize.x;
             var heightRatio = targetHeight / backgroundSize.y;
 
