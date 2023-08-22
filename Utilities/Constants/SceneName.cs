@@ -8,9 +8,10 @@
 //          - LinkedIn: https://www.linkedin.com/in/rimuru/
 //
 // **************************************************************** //
+
 namespace External.RimuruDev.Utilities.Constants
 {
-    public readonly struct SceneName
+    public partial struct SceneName
     {
         public const string Boot = nameof(Boot);
         public const string Menu = nameof(Menu);

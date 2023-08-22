@@ -11,7 +11,7 @@
 
 namespace External.RimuruDev.Utilities.Constants
 {
-    public readonly struct Tag
+    public partial struct Tag
     {
         public const string Untagged = nameof(Untagged);
         public const string Respawn = nameof(Respawn);
