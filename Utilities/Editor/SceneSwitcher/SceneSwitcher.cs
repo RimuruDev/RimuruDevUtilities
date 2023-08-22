@@ -5,6 +5,7 @@
 //   Contact me: 
 //          - Gmail:    rimuru.dev@gmail.com
 //          - LinkedIn: https://www.linkedin.com/in/rimuru/
+//          - GitHub: https://github.com/RimuruDev
 //          - Gists:    https://gist.github.com/RimuruDev/af759ce6d9768a38f6838d8b7cc94fc8
 // **************************************************************** //
 

@@ -5,6 +5,7 @@
 //   Contact me: 
 //          - Gmail:    rimuru.dev@gmail.com
 //          - LinkedIn: https://www.linkedin.com/in/rimuru/
+//          - GitHub: https://github.com/RimuruDev
 //          - Gists:    https://gist.github.com/RimuruDev/61e9f0111b35d3e67ef18fab611d7595
 // **************************************************************** //
 
@@ -20,7 +21,7 @@
 
 using UnityEngine;
 
-namespace External.RimuruDevUtilities.RimuruDev.Utilities.Components.Background
+namespace External.RimuruDevUtilities.Utilities.Components.Background
 {
     /// <summary>
     /// <code>English:</code>
