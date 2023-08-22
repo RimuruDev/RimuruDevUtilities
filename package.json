@@ -1,0 +1,25 @@
+{
+  "name": "com.rimurudev.rimurudev-utilities",
+  "version": "1.0.0",
+  "displayName": "RimuruDev Utilities",
+  "description": "A package of components and utilities that are most often used when creating games or prototypes.",
+  "unity": "2019.1",
+  "dependencies": {},
+  "keywords": [
+    "rimurudev",
+    "rimuru-dev",
+    "abyssmoth",
+    "abyss-moth",
+    "unity",
+    "unity2d",
+    "unity3d",
+    "yandexgames",
+    "html5",
+    "unity-uandexgames"
+  ],
+  "author": {
+    "name": "RimuruDev",
+    "email": "rimuru.dev@gmail.com",
+    "url": "https://github.com/RimuruDev"
+  }
+}
