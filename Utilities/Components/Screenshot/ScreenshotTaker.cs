@@ -24,7 +24,7 @@ namespace External.RimuruDev.Utilities
     [SelectionBase]
     [DisallowMultipleComponent]
     [HelpURL("https://gist.github.com/RimuruDev/0f064261fe501dbfe894d0ec6c18ca67")]
-    public sealed class ScreenshotTaker : MonoBehaviour
+    public class ScreenshotTaker : MonoBehaviour
     {
         [SerializeField] private string folderName = "Screenshots";
 
@@ -37,7 +37,7 @@ namespace External.RimuruDev.Utilities
         }
 
         [System.Diagnostics.Conditional("DEBUG")]
-        private void Update() =>
+        public virtual void Update() =>
             ReadInput();
 
         [System.Diagnostics.Conditional("DEBUG")]
