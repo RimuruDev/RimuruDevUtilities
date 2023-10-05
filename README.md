@@ -1,4 +1,4 @@
-# *Testing PM
+# *Testing Package Manager -> Add git URL
 
 # How Use?
 
